@@ -39,4 +39,5 @@ services:
             max-size: "200m"
 networks:
   desabiller-service_network:
-    external: true
+    # external: true
+    driver: bridge
